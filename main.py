@@ -58,8 +58,8 @@ class IfoodScrapper():
                 print(f'Preço: {price.text}\n')
 
 if __name__ == "__main__":
-    url = "https://www.ifood.com.br/delivery/recife-pe/cacau-show---sh-recife-plaza-casa-forte-parnamirim/df79fc61-be2c-4236-a3a2-ad8832cc40d0"
-    #url = input('Insira a URL do Ifood')
+    # url = "https://www.ifood.com.br/delivery/recife-pe/cacau-show---sh-recife-plaza-casa-forte-parnamirim/df79fc61-be2c-4236-a3a2-ad8832cc40d0"
+    url = input('Insira a URL do Ifood')
 
     scrapper = IfoodScrapper()
     
