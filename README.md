@@ -4,13 +4,13 @@ Esse é um web scrapper que irá inspensionar a página de um determinado restau
 
 ## Instalação
 
-Para baixar todos os pacotes, crie um virtual environment usando este comando:
+1. Para baixar todos os pacotes, crie um virtual environment usando este comando:
 
 ```powershell
 python -m venv env_ifood
 ```
 
-Ative o virtual enviroment 
+2. Ative o virtual enviroment 
 
 (Linux)
 ```bash
@@ -22,8 +22,14 @@ source env_ifood/bin/activate
 env_name\Scripts\Activate.ps1
 ```
 
-Depois disso, use este comando para instalar todos os pacotes necessários:
+3. Use este comando para instalar todos os pacotes necessários:
 
 ```bash
 pip install -r requirements.txt
+```
+
+4. Rode o código
+
+```bash
+python main.py
 ```
